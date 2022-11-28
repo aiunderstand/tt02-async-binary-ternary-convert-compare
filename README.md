@@ -1,34 +1,27 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
+
+# Async Binary Ternary Converter Comparator
+This chip offers various kinds of conversions and comparisons between binary encoded ternary and unary encoded ternary in both machine readible output and human readible (7-segment display decimal) output
+
+## Features: 
+- two channel binary encoded ternary to unary encoded ternary conversion
+- one channel unary encoded ternary to binary encoded ternary conversion
+- binary encoded ternary comparison of channel A and B
+
+## Interactive simulation 
+https://wokwi.com/projects/341277789473735250
+
+## Video
+https://youtu.be/gjoFz0gdG38
+
+## Images
+![image](https://user-images.githubusercontent.com/6376127/200829492-c7f749eb-ca7a-4c69-a998-f4bbe006d12f.png)
+
+[![GDS (die) shot]([https://i.imgur.com/uEzMofO.png](https://i.imgur.com/AZduZRk.png))]()
+
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
 
 Go to https://tinytapeout.com for instructions!
-
-## How to change the Wokwi project
-
-Edit the [info.yaml](info.yaml) and change the wokwi_id to match your project.
-
-## How to enable the GitHub actions to build the ASIC files
-
-Please see the instructions for:
-
-* [Enabling GitHub Actions](https://tinytapeout.com/faq/#when-i-commit-my-change-the-gds-action-isnt-running)
-* [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
-
-## How does it work?
-
-When you edit the info.yaml to choose a different ID, the [GitHub Action](.github/workflows/gds.yaml) will fetch the digital netlist of your design from Wokwi.
-
-After that, the action uses the open source ASIC tool called [OpenLane](https://www.zerotoasiccourse.com/terminology/openlane/) to build the files needed to fabricate an ASIC.
-
-## Resources
-
-* [FAQ](https://tinytapeout.com/faq/)
-* [Digital design lessons](https://tinytapeout.com/digital_design/)
-* [Join the community](https://discord.gg/rPK2nSjxy8)
-
-## What next?
-
-* Share your GDS on Twitter, tag it [#tinytapeout](https://twitter.com/hashtag/tinytapeout?src=hashtag_click) and [link me](https://twitter.com/matthewvenn)!
