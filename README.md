@@ -18,8 +18,7 @@ https://youtu.be/gjoFz0gdG38
 ## Images
 ![image](https://user-images.githubusercontent.com/6376127/200829492-c7f749eb-ca7a-4c69-a998-f4bbe006d12f.png)
 
-[![GDS (die) shot]([https://i.imgur.com/uEzMofO.png](https://i.imgur.com/AZduZRk.png))]()
-
+[![GDS (die) shot](https://i.imgur.com/uEzMofO.png)]()
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
